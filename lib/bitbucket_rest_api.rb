@@ -78,7 +78,7 @@ module BitBucket
                :Users           => 'users',
                :Invitations     => 'invitations',
                :Teams           => 'teams',
-               :Privileges      => 'privileges'
+               :Permissions     => 'permissions'
 
   #:Teams           => 'teams',
   #:PullRequests    => 'pull_requests',

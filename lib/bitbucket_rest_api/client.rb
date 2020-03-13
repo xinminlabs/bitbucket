@@ -52,8 +52,8 @@ module BitBucket
       @invitations ||= ApiFactory.new "Invitations", options
     end
 
-    def privileges(options = {})
-      @privileges ||= ApiFactory.new 'Privileges', options
+    def permissions(options = {})
+      @permissions ||= ApiFactory.new 'Permissions', options
     end
   end # Client
 end # BitBucket
